@@ -1,0 +1,75 @@
+#backButton{
+    width:150px;
+    height: 50px;
+    background-color: #FFC107;
+    border: 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+}
+
+#backButton:hover{
+    box-shadow: 0px 0px 0px #FFC107,0px 0px 20px #FFC107,0px 0px 80px #FFC107;
+    animation: animateBtn 500ms linear forwards;
+}
+
+.animateExploreBtn{
+    animation: animateBtn 500ms linear forwards;
+}
+
+@keyframes animateBtn{
+    from{
+        top: 0;
+    }        
+    to{
+        top: -3px;
+    }
+}
+
+.projectFrame{
+    width: 95%;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background:rgb(255,255,255,0.5); */
+}
+
+.projectCards{
+    margin: 7px;
+    border-radius: 5%;
+    padding: 5px;
+    margin-bottom: 2cm;
+    width: 270px;
+    height: 400px;
+    background:rgb(255,255,255,0.14);
+}
+
+
+.projectCards h1{
+    font-size: 46px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    color: #fafafc;
+}
+
+.projectCards p{
+    font-size: 20px;
+    font-family: "Poppins",sans-serif;
+    color: #eeeded9a;
+}
+
+@media screen and (max-width:495px) {
+    .projectCards{
+        margin: 2px;
+        border-radius: 5%;
+        padding: 5px;
+        margin-bottom: 2cm;
+        width: 270px;
+        height: 400px;
+        background:rgb(255,255,255,0.14);
+    }
+    
+}
