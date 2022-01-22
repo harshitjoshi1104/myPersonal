@@ -644,11 +644,11 @@ body::before{
     }
 /* Added new here */
     .slideL{
-        animation: slideLeft 1s linear forwards;
+        animation: slideLeft 500ms linear forwards;
     }
 
     .slideR{
-        animation: slideRight 1s linear forwards;
+        animation: slideRight 500ms linear forwards;
     }
     @keyframes slideRight {
         from{
@@ -759,11 +759,11 @@ body::before{
     }
 
     .slideL{
-        animation: slideLeft 1s linear forwards;
+        animation: slideLeft 500ms linear forwards;
     }
 
     .slideR{
-        animation: slideRight 1s linear forwards;
+        animation: slideRight 500ms linear forwards;
     }
     @keyframes slideRight {
         from{
