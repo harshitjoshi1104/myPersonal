@@ -221,11 +221,11 @@
     var countingOpen=1
     function myfunction(){
         // document.getElementById("idStaticFrame").classList.add("animPhone")
-        if (countingOpen%2==0){
+        if (countingOpen%2!=0){
             document.getElementById("idStaticFrame").classList.add("slideR")
             document.getElementById("idStaticFrame").classList.remove("slideL")
-            countingOpen=1
-            console.log("Pressed 1")
+            countingOpen=2
+//             console.log("Pressed 1")
             document.getElementById("changingIcon").setAttribute("src","images/triple_dot.png")
             document.getElementById("changingIcon").style.height="70%"
             // document.getElementById("leftDotMenu").style.opacity=0.3
@@ -234,8 +234,8 @@
         else{
             document.getElementById("idStaticFrame").classList.add("slideL")
             document.getElementById("idStaticFrame").classList.remove("slideR")
-            console.log("Pressed 2")
-            countingOpen=2
+//             console.log("Pressed 2")
+            countingOpen=1
             document.getElementById("changingIcon").setAttribute("src","images/menuicon.png")
             document.getElementById("changingIcon").style.height="50%"    
           }
